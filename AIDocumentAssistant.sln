@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70D3ABB8-CAD2-4786-8B7C-EB0C6126A629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIDocumentAssistant.API", "src\AIDocumentAssistant.API\AIDocumentAssistant.API.csproj", "{BD689800-149A-4198-90A7-68780056C41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIDocumentAssistant.Application", "src\AIDocumentAssistant.Application\AIDocumentAssistant.Application.csproj", "{EFC3CB49-4E3A-401F-96C7-B05FBC38033A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIDocumentAssistant.Domain", "src\AIDocumentAssistant.Domain\AIDocumentAssistant.Domain.csproj", "{E00F9C67-F290-452E-BC06-48F18861811E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIDocumentAssistant.Infrastructure", "src\AIDocumentAssistant.Infrastructure\AIDocumentAssistant.Infrastructure.csproj", "{9A2B7401-665D-44FE-BC65-9CBD773349AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD689800-149A-4198-90A7-68780056C41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD689800-149A-4198-90A7-68780056C41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD689800-149A-4198-90A7-68780056C41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD689800-149A-4198-90A7-68780056C41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC3CB49-4E3A-401F-96C7-B05FBC38033A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC3CB49-4E3A-401F-96C7-B05FBC38033A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC3CB49-4E3A-401F-96C7-B05FBC38033A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC3CB49-4E3A-401F-96C7-B05FBC38033A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00F9C67-F290-452E-BC06-48F18861811E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00F9C67-F290-452E-BC06-48F18861811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00F9C67-F290-452E-BC06-48F18861811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00F9C67-F290-452E-BC06-48F18861811E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2B7401-665D-44FE-BC65-9CBD773349AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2B7401-665D-44FE-BC65-9CBD773349AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2B7401-665D-44FE-BC65-9CBD773349AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2B7401-665D-44FE-BC65-9CBD773349AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD689800-149A-4198-90A7-68780056C41F} = {70D3ABB8-CAD2-4786-8B7C-EB0C6126A629}
+		{EFC3CB49-4E3A-401F-96C7-B05FBC38033A} = {70D3ABB8-CAD2-4786-8B7C-EB0C6126A629}
+		{E00F9C67-F290-452E-BC06-48F18861811E} = {70D3ABB8-CAD2-4786-8B7C-EB0C6126A629}
+		{9A2B7401-665D-44FE-BC65-9CBD773349AD} = {70D3ABB8-CAD2-4786-8B7C-EB0C6126A629}
+	EndGlobalSection
+EndGlobal
