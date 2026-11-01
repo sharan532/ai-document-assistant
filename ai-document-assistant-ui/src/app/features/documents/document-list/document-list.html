@@ -1,0 +1,27 @@
+<section>
+  <h2>Uploaded Documents</h2>
+
+  @if (isLoading) {
+    <p>Loading documents...</p>
+  } @else if (documents.length === 0) {
+    <p>No documents uploaded yet.</p>
+  } @else {
+    <table>
+      <thead>
+        <tr>
+          <th>File Name</th>
+          <th>Uploaded At</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @for (doc of documents; track doc.id) {
+          <tr>
+            <td>{{ doc.fileName }}</td>
+            <td>{{ doc.uploadedAtUtc | date:'medium' }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</section>

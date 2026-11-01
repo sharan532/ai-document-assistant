@@ -1,0 +1,21 @@
+.upload-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+input {
+  display: block;
+  margin: 16px 0;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
